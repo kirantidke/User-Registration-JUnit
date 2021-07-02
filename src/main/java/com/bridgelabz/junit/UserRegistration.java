@@ -15,7 +15,6 @@ public class UserRegistration {
 	public boolean validateFirstName(String fName) {
 		return patternChecker(fName, NAME_PATTERN);
 	}
-
 	public boolean validateLastName(String lName) {
 		return patternChecker(lName, NAME_PATTERN);
 	}
