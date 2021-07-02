@@ -22,7 +22,6 @@ public class UserRegistration {
 	public boolean validateEmailId(String emailId) {
 		return patternChecker(emailId, EMAIL_PATTERN);
 	}
-
 	public boolean validateMobileNum(String mobileNum) {
 		return patternChecker(mobileNum, MOBILE_PATTERN);
 	
