@@ -25,6 +25,7 @@ public class UserRegistration {
 
 	public boolean validateMobileNum(String mobileNum) {
 		return patternChecker(mobileNum, MOBILE_PATTERN);
+	
 	}
 
 	public boolean validatePassword(String password) {
