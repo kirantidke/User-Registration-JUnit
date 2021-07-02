@@ -1,5 +1,4 @@
 package com.bridgelabz.junit;
-
 /**
  * Ability to check valid last name
  *
