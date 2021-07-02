@@ -7,7 +7,6 @@ import org.junit.Test;
 /**
  * Unit test for User Registration.
  */
-
 public class UserRegistrationTest {
 	UserRegistration userRegistration = new UserRegistration();
 	@Test

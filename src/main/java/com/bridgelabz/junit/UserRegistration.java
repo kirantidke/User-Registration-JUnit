@@ -30,7 +30,6 @@ public class UserRegistration {
 	public boolean validatePassword(String password) {
 		return patternChecker(password, PASSWORD_PATTERN);
 	}
-
 	private boolean patternChecker(String input, String fieldPattern) {
 		Pattern pattern = Pattern.compile(fieldPattern);
 		Matcher matcher = pattern.matcher(input);
